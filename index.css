@@ -1,14 +1,34 @@
+.maincontainer{
+    text-align: center;
+}
 a{
     text-decoration: none;
-}
-.main{
-    font-size: 40px;
     color: black;
     font-weight: bold;
-    padding: 5px;
 }
-
-.CenterHeader-zone{
-    padding-top: 5px;
+.Logo{
+    text-align: left;
+    font-size: 30px;
     padding-left: 10px;
+}
+#Music-player{
+    display: flex;
+    padding-top: 90px;
+}
+#Main-panel{
+    flex: 1;
+    box-sizing: border-box;
+    height: 100%;
+    align-items: center;
+}
+#Side-panel{
+    flex: 1;
+    box-sizing: border-box;
+}
+.Music{
+    margin-bottom: 10px;
+}
+.Novideo{
+    font-size: 30px;
+    font-weight: bold;
 }
