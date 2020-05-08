@@ -1,0 +1,39 @@
+.maincontainer{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.Logo{
+    text-align: left;
+    font-size: 30px;
+    padding-left: 10px;
+}
+#Music-player{
+    width: 100%;
+    margin: auto;
+    clear: both;
+    max-width: 1200px;
+    display: block;
+}
+#Main-panel, #Side-panel{
+    vertical-align: top;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Music{
+    margin-bottom: 10px;
+}
+.VideoPanel{
+    font-size: 50px;
+    font-weight: bold;
+}
+body {
+    background: #fff;
+    font-family: Tahoma, Arial;
+    font-size: 18px;
+    font-weight: 400;
+}
