@@ -12,10 +12,6 @@ app.get('/', function(req, res){
     var mainpage = MusicFlexMainPage.HTML();
     res.send(mainpage)
 });
-app.get('/:pageId', function(req, res){
-    var mainpage = MusicFlexMusicPage.HTML();
-    res.send(mainpage)
-});
 
 app.listen(3000, function() {
     console.log("Example app is running")
