@@ -22,14 +22,12 @@ app.get('/Rap/:pageId', function(req, res) {
             var arr = data.split("\r\n")
             var music_title = arr[0]
             var videolinkcode = arr[1]
-            fs.readFile('musics/Rap/Rap_playlist', 'utf8', function(err, playlist){
-                var musicpage = MusicFlexMusicPage.HTML(music_title, videolinkcode, playlist)
-                res.send(musicpage)
-            })
+            var nextlocation = arr[2]
+            var musicpage = MusicFlexMusicPage.HTML(music_title, videolinkcode, nextlocation)
+            res.send(musicpage)
         })
     })
 })
-
 
 app.listen(3000, function() {
     console.log("Example app is running")
