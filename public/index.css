@@ -23,13 +23,17 @@ body {
 .no_video{
     font-size: 50px;
     font-weight: bold;
+    width: 800px;
+    padding: 5px 0;
+    height: 450px;
 }
 #Music-player{
     width: 100%;
     height: 100%;
     margin: auto;
     clear: both;
-    max-width: 1200px;
+    max-width: 1400px;
+    max-height: 450px;
     display: block;
 }
 #Main-panel, #Side-panel, #Type-panel{
@@ -40,12 +44,19 @@ body {
     box-sizing: border-box;
 }
 #Main-panel{
-    width: 450px;
+    width: 800px;
     padding: 5px 0;
+    height: 450px;
 }
 #Side-panel{
-    width: 500px;
+    width: 400px;
     padding: 5px;
+    height: 430px;
+}
+#Type-panel{
+    width: 200px;
+    padding: 5px;
+    height: 450px;
 }
 #playlist-searcher{
     margin: 0;
@@ -54,13 +65,8 @@ body {
 }
 #playlist{
     margin-top: 10px;
-    max-height: 200px;
+    max-height: 400px;
     overflow: auto;
-}
-
-#Type-panel{
-    width: 200px;
-    padding: 5px;
 }
 .Type{
     display: block;
