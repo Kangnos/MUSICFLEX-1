@@ -16,3 +16,6 @@ This is a website which you can listen music or songs that you want
 
 ### 0.5 ver 
 #### WOW!! I did it! finally. I used youtube API. It worked. huh
+
+### 0.6 ver
+#### Changed UI that main panel more bigger. Also I made side panel and type panel smaller
