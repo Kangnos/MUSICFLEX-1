@@ -23,8 +23,10 @@ app.get('/Rap/:pageId', function(req, res) {
             var music_title = arr[0]
             var videolinkcode = arr[1]
             var nextlocation = arr[2]
-            var musicpage = MusicFlexMusicPage.HTML(music_title, videolinkcode, nextlocation)
-            res.send(musicpage)
+            fs.readFile('musics/Rap/RapMusics', 'utf8', function(err, musics){
+                var musicpage = MusicFlexMusicPage.HTML(music_title, videolinkcode, nextlocation, musics)
+                res.send(musicpage)
+            })
         })
     })
 })
