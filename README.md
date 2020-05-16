@@ -19,3 +19,6 @@ This is a website which you can listen music or songs that you want
 
 ### 0.6 ver
 #### Changed UI that main panel more bigger. Also I made side panel and type panel smaller
+
+### 0.7 ver
+#### 'Musicspage.js' file became more dynamic. We can reuse it.
