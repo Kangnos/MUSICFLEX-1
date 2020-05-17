@@ -17,7 +17,7 @@ app.get('/', function(req, res){
 app.get('/Rap/:pageId', function(req, res) {
     fs.readdir('./musics', function (err, filelist) {
         var filteredMusic = path.parse(req.params.pageId).base;
-        fs.readFile(`musics/Rap/${filteredMusic}.txt`, 'utf8', function (err, data) {
+        fs.readFile(`musics/Rap/${filteredMusic}`, 'utf8', function (err, data) {
             if( err ) throw err
             var arr = data.split("\r\n")
             var music_title = arr[0]
