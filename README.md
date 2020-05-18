@@ -1,5 +1,7 @@
 # MusicFlex
 ![MusicFlex photo](https://user-images.githubusercontent.com/57825621/82172980-cf00a180-9906-11ea-8054-2becdd350bd1.JPG)
+![MusicFlex photo remake ver](https://user-images.githubusercontent.com/57825621/82174947-3d486280-990d-11ea-9a52-f460cd57943b.JPG)
+
 
 This is a website which you can listen music or songs that you want
 
