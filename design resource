@@ -5,3 +5,26 @@ iframe width style: width="550" height="320"
 <iframe width="550" height="320"  class="player" src="https://www.youtube.com/embed/${videolinkcode}?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="550" height="320"  class="player" src="https://www.youtube.com/embed/${videolinkcode}?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <div class="Type"><a href="/Rap" id=""><span>▶</span> Rap</a></div>
+
+
+
+
+<script src="http://www.youtube.com/player_api"></script>
+
+
+var player;
+function onYouTubePlayerAPIReady() {
+    player = new YT.Player('player', {
+        videoId: "${videolinkcode}",
+        width: '800',
+        height: '430',
+        events: {
+            'onReady': onPlayerReady,
+            'onStateChange': 'onPlayerStateChange'
+        }
+    });
+    
+}
+function onPlayerReady(event) {
+    event.target.playVideo();
+}
