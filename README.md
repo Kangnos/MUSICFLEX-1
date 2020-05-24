@@ -25,3 +25,6 @@
 
 ### 0.7 ver
 #### 'Musicspage.js' file became more dynamic. We can reuse it.
+
+### 0.8 ver
+#### Rivised Errer that blind Side bar. I did many times. Now it finall worked
