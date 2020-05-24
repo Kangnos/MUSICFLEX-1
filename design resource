@@ -13,18 +13,28 @@ iframe width style: width="550" height="320"
 
 
 var player;
-function onYouTubePlayerAPIReady() {
+function onYouTubeIframeAPIReady() {
     player = new YT.Player('player', {
-        videoId: "${videolinkcode}",
-        width: '800',
-        height: '430',
+        height: '100%',
+        width: '100%',
+        playerVars: {
+            'autoplay': 1
+        },
+        videoId: '${videolinkcode}',
         events: {
-            'onReady': onPlayerReady,
-            'onStateChange': 'onPlayerStateChange'
+        'onReady': onPlayerReady,
+        'onStateChange': onPlayerStateChange
         }
     });
-    
 }
+
 function onPlayerReady(event) {
     event.target.playVideo();
+}
+
+
+function onPlayerStateChange(event) {
+    if (event.data === 0) {
+        window.open("${nextlocation}", "_self");
+    }
 }

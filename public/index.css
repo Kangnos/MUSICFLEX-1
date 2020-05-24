@@ -48,6 +48,9 @@ body {
     padding: 5px 0;
     height: 540px;
 }
+#Music_name{
+    height: 200px;
+}
 #Side-panel{
     width: 400px;
     padding: 5px;
@@ -83,7 +86,6 @@ body {
     #Side-panel, #Type-panel{width: 50%;}
     .no_video{
         width:100%;
-        height: 100%;
     }
 }
 
@@ -95,6 +97,6 @@ body {
         width: 100%;
     }
     #Main-panel{
-        height: 586px;
+        max-height: 586px;
     }
 }
