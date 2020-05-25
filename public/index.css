@@ -87,6 +87,9 @@ body {
     .no_video{
         width:100%;
     }
+    #Music_name{
+        font-size: 30px;
+    }
 }
 
 /* 만약 창 화면 가로가 900 px이 되면 */
@@ -98,5 +101,8 @@ body {
     }
     #Main-panel{
         max-height: 586px;
+    }
+    #Music_name{
+        font-size: 20px;
     }
 }
