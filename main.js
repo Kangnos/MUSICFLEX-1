@@ -32,6 +32,7 @@ app.get('/Rap/:pageId', function (req, res) {
         })
     })
 })
+
 app.get('/Pop/:pageId', function (req, res) {
     fs.readdir('./musics', function (err, filelist) {
         var filteredMusic = path.parse(req.params.pageId).base;
