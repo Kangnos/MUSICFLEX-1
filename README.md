@@ -16,7 +16,6 @@
 ### 0.4 ver 
 #### Going to make event when music end, go next video automatic. So I did for 2 days but it did't work. I feel so... you know.. worry?
 
-
 ### 0.5 ver 
 #### WOW!! I did it! finally. I used youtube API. It worked. huh
 
@@ -27,4 +26,4 @@
 #### 'Musicspage.js' file became more dynamic. We can reuse it.
 
 ### 0.8 ver
-#### Rivised Errer that blind Side bar. I did many times. Now it finall worked
+#### Rivised Errer that blind Side bar. I did many times. Now it finaly worked.
