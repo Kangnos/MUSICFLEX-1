@@ -105,4 +105,7 @@ body {
     #Music_name{
         font-size: 20px;
     }
+    #playlist{
+        max-height: 385px;
+    }
 }
