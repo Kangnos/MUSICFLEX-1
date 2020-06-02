@@ -27,3 +27,8 @@
 
 ### 0.8 ver
 #### Rivised Errer that blind Side bar. I did many times. Now it finaly worked.
+
+
+# Plans 2020.6.2 (or Idea)
+### Plan A Crolling song lyrics in google and show lyrics in the song
+### Plan B Crolling Weather and show recomend song packages. (ex> good song when rainy day)
