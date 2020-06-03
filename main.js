@@ -15,7 +15,7 @@ app.get('/', function (req, res) {
     res.send(mainpage)
 });
 
-app.get('/Rap/:pageId', function (req, res) {
+app.get('/Rap/:pageId', function (req, res) {   
     fs.readdir('./musics', function (err, filelist) {
         var filteredMusic = path.parse(req.params.pageId).base;
         var page_url = req.url;
@@ -27,8 +27,9 @@ app.get('/Rap/:pageId', function (req, res) {
             var music_title = arr[1]
             var videolinkcode = arr[2]
             var nextmusic_title = arr[3]
+            var nextmusic_linkcode = arr[4]
             fs.readFile('musics/Rap/RapMusics', 'utf8', function (err, musics) {
-                var musicpage = MusicFlexMusicPage.HTML(music_title, videolinkcode, musics, page_url, music_title, artist_name, musictype, nextmusic_title);
+                var musicpage = MusicFlexMusicPage.HTML(music_title, videolinkcode, musics, page_url, music_title, artist_name, musictype, nextmusic_title, nextmusic_linkcode);
                 res.send(musicpage)
             })
         })
