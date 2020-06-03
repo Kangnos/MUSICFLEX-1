@@ -32,3 +32,4 @@
 # Plans 2020.6.2 (or Idea)
 ### Plan A Crolling song lyrics in google and show lyrics in the song
 ### Plan B Crolling Weather and show recomend song packages. (ex> good song when rainy day)
+### Plan C By using youtube API auto play function, Make musics play auto.
