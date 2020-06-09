@@ -33,3 +33,8 @@
 ### Plan A Crolling song lyrics in google and show lyrics in the song
 ### Plan B Crolling Weather and show recomend song packages. (ex> good song when rainy day)
 ### Plan C By using youtube API auto play function, Make musics play auto.
+
+
+# Plan succeed 2020.6
+### Plan C 
+#### 70% of plan C succeed. I have to change the button event but it doesn 't work.
