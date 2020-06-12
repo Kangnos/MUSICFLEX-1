@@ -1,7 +1,10 @@
 # **MUSICFLEX**
 
-
 ## This is a website which you can listen music or songs that you want
+
+## Picture of MUSICFLEX Website
+![MusicFlex photo remake ver](https://user-images.githubusercontent.com/57825621/84461036-6fe44180-aca6-11ea-93f8-d1d7e4d27933.JPG)
+
 
 ### 0.1 ver
 #### New start! Just made website Frame with HTML and CSS 
